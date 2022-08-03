@@ -28,14 +28,13 @@ img {
 	position: absolute;
 	bottom: 1rem;
 	left: 1rem;
-	transition: .5s ease-in;
+	transition: .3s ease-in;
 	opacity: 0;
 	white-space: nowrap;
 }
 
 body > span {
 	position: relative;
-	// overflow: hidden;
 }
 
 .cued-img {
