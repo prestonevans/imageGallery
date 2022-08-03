@@ -1,0 +1,50 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: sans-serif;
+}
+
+img {
+  width: 5vw;
+  height: 80vh;
+  object-fit: cover;
+  transition: 0.3s ease-in;
+  border-radius: 1rem;
+}
+img:hover {
+  cursor: pointer;
+}
+
+.text-content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  transition: 0.5s ease-in;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+body > span {
+  position: relative;
+}
+
+.cued-img {
+  width: 50vw;
+  transform: scaleY(1.1);
+}
+
+.cued-img + .text-content {
+  color: white;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
